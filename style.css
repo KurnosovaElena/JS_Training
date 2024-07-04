@@ -11,8 +11,109 @@ body{
     justify-content: space-between;
 }
 
+header a:hover {
+    text-decoration: underline;
+}
+
 .hr-1{
-    margin: 2% auto;
+    margin: 1% auto;
     border: 1.5px solid #F5F5F5;
     border-radius: 10px;
+}
+
+.vertical-bar {
+    width: 4px;
+    height: 2.5rem;
+    background-color: #888;
+}
+
+h1 {
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.main-text{
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+.checkmark {
+    font-size: 1.5rem;
+    color: #888;
+    margin-right: 0.625rem;
+    transform: scaleY(1.5);
+    margin-bottom: 0.5rem;
+}
+
+.technology-text{
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 0.625rem;
+    margin: 1.25rem 0;
+    border-radius: 0.312rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+
+.technology-text p{
+    font-style: italic;
+}
+
+.technology-block{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.5%;
+    margin-bottom: 3%;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    flex-direction: row;
+}
+
+.hr-2{
+    border: 1.5px solid #F5F5F5;
+    border-radius: 10px;
+    width: 84%;
+    margin: auto auto auto 0;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.hr-3{
+    border: 1.5px solid #F5F5F5;
+    border-radius: 10px;
+    width: 4%;
+    margin: auto 0 auto auto ;
+}
+
+a:focus-visible{
+    outline: none;
+}
+
+img{
+    max-height: 12.5rem;
+    max-width: 12.5rem;
+    margin-bottom: 0.625rem;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.left-links{
+    display: flex;
+    gap: 1.25rem;
+    margin: 1.5% 0 0 1.5%;
+}
+
+.right-link{
+    margin: 1.5% 1.5% 0 0;
 }
